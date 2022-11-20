@@ -4,22 +4,22 @@ import random
 
 from datetime import datetime
 
-quantidade = int(input("Digite a quantidade de cidades (mais que duase menos que 5): "))
-while quantidade < 2 or quantidade > 5:
-  print("Quantidade inválida! Deve ser maior que duas.")
-  quantidade = int(input("Digite a quantidade de cidades (mais que duas e menos que 5): "))
-tamanhoPopulacao = int(input("Digite o tamanho da população (maios que um): "))
-while tamanhoPopulacao < 1:
-  print("Quantidade inválida! Deve ser maior que um.")
-  tamanhoPopulacao = int(input("Digite o tamanho da população (maios que um): "))
-geracoes = int(input("Digite a quantidade de gerações (mais que uma): "))
-while geracoes < 1:
-  print("Quantidade inválida! Deve ser maior que um.")
-  geracoes = int(input("Digite a quantidade de gerações (mais que uma): "))
+# quantidade = int(input("Digite a quantidade de cidades (mais que duase menos que 5): "))
+# while quantidade < 2 or quantidade > 5:
+#   print("Quantidade inválida! Deve ser maior que duas.")
+#   quantidade = int(input("Digite a quantidade de cidades (mais que duas e menos que 5): "))
+# tamanhoPopulacao = int(input("Digite o tamanho da população (maios que um): "))
+# while tamanhoPopulacao < 1:
+#   print("Quantidade inválida! Deve ser maior que um.")
+#   tamanhoPopulacao = int(input("Digite o tamanho da população (maios que um): "))
+# geracoes = int(input("Digite a quantidade de gerações (mais que uma): "))
+# while geracoes < 1:
+#   print("Quantidade inválida! Deve ser maior que um.")
+#   geracoes = int(input("Digite a quantidade de gerações (mais que uma): "))
 
 #Parâmetros
-n_cities = quantidade
-n_population = tamanhoPopulacao
+n_cities = 6 #quantidade
+n_population = 20 #tamanhoPopulacao
 mutation_rate = 0.3
 
 #gerando lista de coordenadas representando cada cidade
